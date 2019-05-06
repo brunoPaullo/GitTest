@@ -7,8 +7,13 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             string message = "Hello World!";
-            Console.WriteLine(message);
+            GetMessage(message);
             Console.ReadKey();
+        }
+
+        private static void GetMessage( string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }
