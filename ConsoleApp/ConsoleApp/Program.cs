@@ -8,12 +8,18 @@ namespace ConsoleApp
         {
             string message = "Hello World!";
             GetMessage(message);
+            GetMessage(GetEmail());
             Console.ReadKey();
         }
 
         private static void GetMessage( string message)
         {
             Console.WriteLine(message);
+        }
+
+        private static string GetEmail()
+        {
+            return "example@gamil.com";
         }
     }
 }
