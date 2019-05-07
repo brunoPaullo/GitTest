@@ -17,7 +17,7 @@ namespace ConsoleApp
             Console.WriteLine(message);
         }
 
-        private static string GetEmail()
+        private static string GetEmails()
         {
             return "example@gamil.com";
         }
